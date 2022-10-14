@@ -2,8 +2,33 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
-#container {
+div#container {
+   width: 100%;
+   height: 1000px;
+   display: flex;
+   flex-direction: column;
+   align-content: center;
+   align-items: center;
+   
+}
+
+.titulo {
+    width: 400px;
+    margin-top: 18px;
+    margin-bottom: 5px;
     text-align: center;
+}
+
+#formulario {
+    background-color: rgba(84, 74, 244)  ;
+    width: 700px; 
+    padding: 25px;
+    
+}
+
+.form-group {
+    padding: 1px;
 }

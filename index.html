@@ -11,12 +11,12 @@
 
     <div id="container">
 
-        <header>
+        <header class="titulo">
             <h1>Formulario de pesquisa</h1>
             <p>Uma pesquisa</p>
         </header>
 
-        <form action="">
+        <form action="" id="formulario">           
 
             <!-- Parte dos imputs-->
             <div class="form-group"> 
@@ -83,7 +83,11 @@
 
             <div class="form-group">
                 <p>Comentários?</p>
-                <textarea  >
+                <textarea id="comentarios" name="comentarios" rows="4" cols="10" > comentarios</textarea>
+            </div>
+
+            <div class="form-group">
+                <input type="button" class="botao-enviar" value="Enviar"  >
             </div>
 
 
