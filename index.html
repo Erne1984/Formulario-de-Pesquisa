@@ -20,24 +20,24 @@
 
             <!-- Parte dos imputs-->
             <div class="form-group"> 
-                <label for="nome">Nome</label>
-                <input type="text" id="nome" name="nome">
+                <label class="label-linha" for="nome">Nome</label>
+                <input type="text" id="nome" class="form-control" name="nome">
             </div>
 
             <div class="form-group"> 
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email">
+                <label class="label-linha" for="email">Email</label>
+                <input type="email" id="email" class="form-control" name="email">
             </div>
 
             
             <div class="form-group"> 
-                <label for="idade">idade <span>Opcional</span></label>
-                <input type="number" id="idade" name="idade">
+                <label class="label-linha" for="idade">idade <span>Opcional</span></label>
+                <input type="number" id="idade" class="form-control" name="idade">
             </div>
             
             <!-- Parte dos Selects -->
             <div class="form-group"> 
-                <p>Escolha alguma opção abaixo</p>
+                <p class="texto">Escolha alguma opção abaixo</p>
                 <select>
                     <option value="valor1">Valor 1</option>
                     <option value="valor2" selected>Valor 2</option>
@@ -46,7 +46,7 @@
             </div>
 
             <div class="form-group"> 
-                <p>Escolha alguma opção abaixo</p>
+                <p class="texto">Escolha alguma opção abaixo</p>
                 <select>
                     <option value="valor1">Valor 1</option>
                     <option value="valor2" selected>Valor 2</option>
@@ -57,33 +57,53 @@
 
             <!-- Partes dos Checkbox -->
             <div class="form-group">
-                <p> O que você gostaria de mudar ?</p>
-                <input type="checkbox" id="check1">
+                <p class="texto"> O que você gostaria de mudar ?</p>
+                <label>
+                    <input type="checkbox" value="valor1" class="check"> 
+                    valor1
+                </label>
+                
             </div>
             
             <div class="form-group">
-                <input type="checkbox" id="check2">
+                <label for="">
+                    <input type="checkbox" value="valor2"  class="check">
+                    valor2
+                </label>
             </div>
             
             <div class="form-group">
-                <input type="checkbox" id="check3">
+                <label >
+                    <input type="checkbox" value="valor3"   class="check">
+                    valor3
+                 </label>
             </div>
             
             <div class="form-group">
-                <input type="checkbox" id="check4">
+                <label for="">
+                    <input type="checkbox" value="valor4" class="check">
+                    valor4
+                </label>
             </div>
             
             <div class="form-group">
-                <input type="checkbox" id="check5">
+                <label for="">
+                    <input type="checkbox" value="valor5"  class="check">
+                    valor5
+                </label>
             </div>
 
             <div class="form-group">
-                <input type="checkbox" id="check6">
+                <label for="">
+                    <input type="checkbox" value="valor6"  class="check">
+                    valor6
+                </label>
             </div>
 
+            <!--TEXTAREA--> 
             <div class="form-group">
-                <p>Comentários?</p>
-                <textarea id="comentarios" name="comentarios" rows="4" cols="10" > comentarios</textarea>
+                <p class="texto">Comentários?</p>
+                <textarea id="comentarios" name="comentarios" class="comentarios" > comentarios</textarea>
             </div>
 
             <div class="form-group">
